@@ -1,0 +1,11 @@
+int res[10]={0};
+   char ch[1000];
+    scanf("%s",ch);
+    for(int i=0;i<strlen(ch);i++){
+        if(ch[i]>=48 && ch[i]<=57){
+        res[ch[i]-48]++;}
+    }   
+    for(int i=0;i<10;i++){
+        printf("%d ",res[i]);
+    }
+    return 0;
