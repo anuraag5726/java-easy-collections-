@@ -1,0 +1,9 @@
+ Scanner in=new Scanner(System.in);
+        int n=in.nextInt();
+        in.nextLine();
+        HashSet<String> se=new HashSet<String>();
+        for(int i=0;i<n;i++){
+            String a=in.nextLine();
+            se.add(a);
+            System.out.println(se.size());
+        }
