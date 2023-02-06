@@ -1,0 +1,13 @@
+ Scanner in = new Scanner(System.in);
+        Set<Character> str= new LinkedHashSet<>();
+        String s=in.next();
+        String res="";
+     for(int i=0;i<s.length();i++){
+         char ch=s.charAt(i);
+         str.add(ch);
+     }
+       for(char c:str){
+           res+=c;
+       }
+        System.out.println(res);
+ 
